@@ -1,0 +1,19 @@
+[package]
+name = "kaite"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+crossterm = "0.27.0"
+dotenv = "0.15.0"
+homedir = "0.2.1"
+ratatui = "0.26.1"
+reqwest = {version="0.12.2", features = ["json"]}
+serde = {version="1.0.197", features = ["derive"]}
+serde_json = "1.0.115"
+tokio = {version="1.36.0", features = ["full"] }
+tui-input = "0.8.0"
+winnow = {version="0.6.5", features = ["alloc"] }
